@@ -1,3 +1,5 @@
 Error: ENOSPC: System limit for number of file watchers reached
 Solution: echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
-453231@W3s
+
+
+https://awesomeopensource.com/project/agrcrobles/react-native-live-translator
