@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Phrase Notebook",
+    "slug": "phrases-notebook",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/my-icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#16a085"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "br.net.w3software",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/my-adaptive-icon.png",
+        "backgroundColor": "#66c"
+      },
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-7854818002814670~5781802960"
+      },
+      "permissions" : [],
+      "package": "br.net.w3software",
+      "versionCode": 12
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
